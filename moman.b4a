@@ -1,0 +1,303 @@
+﻿Build1=Default,b4a.example
+File1=1.1.png
+File10=HomeJamaah.bal
+File11=HomeStewardship.bal
+File12=List.bal
+File13=ListDonationJamaah.bal
+File14=ListHistoryJamaah.bal
+File15=ListImageProjectJamaah.bal
+File16=ListOrphanTPAPoorJamaah.bal
+File17=ListQurbanJamaah.bal
+File18=Login.bal
+File19=logout.png
+File2=back-arrow.png
+File20=MainScrollView.bal
+File21=maps.png
+File22=MapsJamaah.bal
+File23=nurul-iman.jpg
+File24=orphan.png
+File25=OrphansJamaahDetail.bal
+File26=poor.png
+File27=PoorJamaahDetail.bal
+File28=qurban.png
+File29=QurbanJamaahDetail.bal
+File3=CLV_donation.bal
+File30=TpaJamaahDetail.bal
+File31=transaction.png
+File4=ConfirmationDonationJamaah.bal
+File5=ConfirmationQurbanJamaah.bal
+File6=construction.png
+File7=DonationJamaahDetail.bal
+File8=history.png
+File9=home.png
+FileGroup1=Images
+FileGroup10=Default Group\Jamaah
+FileGroup11=Default Group
+FileGroup12=Default Group\Jamaah
+FileGroup13=Default Group\Jamaah
+FileGroup14=Default Group\Jamaah
+FileGroup15=Default Group\Jamaah
+FileGroup16=Default Group\Jamaah
+FileGroup17=Default Group\Jamaah
+FileGroup18=Default Group
+FileGroup19=Images
+FileGroup2=Images
+FileGroup20=Default Group
+FileGroup21=Images
+FileGroup22=Default Group\Jamaah
+FileGroup23=Images
+FileGroup24=Images
+FileGroup25=Default Group\Jamaah
+FileGroup26=Images
+FileGroup27=Default Group\Jamaah
+FileGroup28=Images
+FileGroup29=Default Group\Jamaah
+FileGroup3=Default Group\Jamaah
+FileGroup30=Default Group\Jamaah
+FileGroup31=Images
+FileGroup4=Default Group\Jamaah
+FileGroup5=Default Group\Jamaah
+FileGroup6=Images
+FileGroup7=Default Group\Jamaah
+FileGroup8=Images
+FileGroup9=Images
+Group=Default Group
+IconFile=
+Library1=core
+Library10=byteconverter
+Library11=b4xencryption
+Library12=encryption
+Library13=reflection
+Library2=javaobject
+Library3=xcustomlistview
+Library4=xui
+Library5=okhttputils2
+Library6=json
+Library7=keyvaluestore2
+Library8=runtimepermissions
+Library9=ahpreferenceactivity
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="26"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~	SetApplicationAttribute(android:theme, @android:style/Theme.NoTitleBar.Fullscreen)~\n~SetApplicationAttribute(android:hardwareAccelerated,"false")~\n~SetApplicationAttribute(android:largeHeap,"true")~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~'CreateResourceFromFile(Macro, Themes.DarkTheme)~\n~SetApplicationAttribute(android:theme, "@style/LightTheme")~\n~CreateResource(values, colors.xml,~\n~<resources>~\n~    <color name="actionbar">#B30000</color>~\n~   <color name="statusbar">#ff006db3</color>~\n~   <color name="textColorPrimary">#000000</color>~\n~   <color name="navigationBar">#B30000</color>~\n~</resources>~\n~)~\n~CreateResource(values-v20, theme.xml,~\n~<resources>~\n~    <style name="LightTheme" parent="@android:style/Theme.Material.Light">~\n~        <item name="android:colorPrimary">@color/actionbar</item>~\n~        <item name="android:colorPrimaryDark">@color/statusbar</item>~\n~        <item name="android:textColorPrimary">@color/textColorPrimary</item>~\n~        <item name="android:navigationBarColor">@color/navigationBar</item>~\n~    </style>~\n~</resources>~\n~)~\n~CreateResource(values-v14, theme.xml,~\n~<resources>~\n~    <style name="LightTheme" parent="@android:style/Theme.Holo.Light">~\n~       <item name="android:actionBarStyle">@style/CustomActionBarStyle</item>~\n~    </style>~\n~   <style name="CustomActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">~\n~       <item name="android:background">@color/actionbar</item>~\n~   </style>~\n~</resources>~\n~)~\n~AddManifestText(~\n~<uses-permission~\n~android:name="android.permission.WRITE_EXTERNAL_STORAGE"~\n~android:maxSdkVersion="18" />~\n~<uses-permission~\n~android:name="android.permission.READ_EXTERNAL_STORAGE"/>~\n~)~\n~AddApplicationText(~\n~<meta-data~\n~  android:name="com.google.android.geo.API_KEY"~\n~  android:value="AIzaSyBNnzxae2AewMUN0Tt_fC3gN38goeLVdVE"/>~\n~)~\n~'End of default text.~\n~AddManifestText(<uses-permission~\n~android:name="android.permission.WRITE_EXTERNAL_STORAGE"~\n~android:maxSdkVersion="18" />~\n~)~\n~'End of default text.~\n~
+Module1=HomeJamaah
+Module10=QurbanJamaahDetail
+Module11=QurbanJamaahConfirm
+Module12=CodeSemua
+Module13=HomeStewardship
+Module14=MapsJamaah
+Module15=OrphansJamaah
+Module16=TpaJamaah
+Module17=TpaJamaahDetail
+Module18=PoorJamaahDetail
+Module19=PoorJamaah
+Module2=OrphansJamaahDetail
+Module3=HistoryJamaah
+Module4=Starter
+Module5=DonationJamaah
+Module6=QurbanJamaah
+Module7=StewardshipDonationDetail
+Module8=DonationJamaahDetail
+Module9=DonationJamaahConfirm
+NumberOfFiles=31
+NumberOfLibraries=13
+NumberOfModules=19
+Version=8
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: B4A Example
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: False
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	Dim username, phone, status, id, worship_name, types, address,updated_at,avatar,worship_place_address As String
+	Dim server As String = "http://192.168.43.99:3000/"
+	'Dim folder As String
+	'Dim kvs As KeyValueStore
+	'Dim rp As RuntimePermissions
+	Dim manager As AHPreferenceManager
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	'These variables can only be accessed from this module.
+	
+	Private MainScroll As ScrollView
+	Private PanelLogin As Panel
+	Private BtnLogin As Button
+	Private EditPassword As EditText
+	Private EditUsername As EditText
+	Dim md5string As String
+	Private pstep As Panel
+	Private pjam As Panel
+	Private Labelstep As Label
+	Private labeljam As Label
+	
+	
+	Private Navbar As Panel
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	'Do not forget to load the layout file created with the visual designer. For example:
+	
+	If manager.GetBoolean("is_login") Then
+		Else
+			manager.SetBoolean("jamaah", True)
+			manager.SetBoolean("step", False)
+	End If
+		
+	CheckLogin	
+	Activity.LoadLayout("MainScrollView")
+	MainScroll.Panel.LoadLayout("Login")
+	MainScroll.Panel.Height = PanelLogin.Height
+	MainScroll.Height = PanelLogin.Height	
+	SetChecked(pstep,Labelstep,manager.GetBoolean("step"))
+	SetChecked(pjam,labeljam,manager.GetBoolean("jamaah"))
+	Navbar.Visible = False
+	'CodeSemua.SetCBDrawable(stewardship,Colors.Transparent,0Dip,Colors.Transparent,Chr(8730),Colors.LightGray,30Dip,3dip)
+	'CodeSemua.SetCBDrawable(Jamaah,Colors.Transparent,0Dip,Colors.Transparent,Chr(8730),Colors.LightGray,30Dip,3dip)
+	
+End Sub
+
+Sub Activity_Resume
+	Log(manager.GetString("wahyu"))
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+
+Sub JobDone (Job As HttpJob)
+   Log("JobName = " & Job.JobName & ", Success = " & Job.Success)
+   If Job.Success = True Then
+		Dim res As String
+		res = Job.GetString 'menyimpan json dalam bentuk string
+		Dim parser As JSONParser 'mengambil data dalam bentuk json menjadi array
+		parser.Initialize(res)
+		Log("Response from server :"& res) 
+		Select Job.JobName
+			Case "Login"
+			Try
+					Dim a As Map
+					a = parser.NextObject
+					username = a.Get("username")
+					phone = a.Get("phone")
+					status = a.Get("status")
+					id = a.Get ("jamaah_id")
+					worship_name = a.Get("worship_name")
+					types= a.Get("types")
+					address= a.Get("address")
+					updated_at= a.Get("updated_at")
+					avatar= a.Get("avatar")
+					worship_place_address= a.Get("worship_place_address")					
+					
+					
+					If username == "null" Or phone == "null" Then
+						Msgbox("Wrong username or password","Login Failed")
+					Else 
+						If (status = "jamaah") And (manager.GetBoolean("jamaah") = True) Then
+							manager.SetString("username",username)
+							manager.SetString("id",id)
+							Log(manager.GetString("username"))
+							Log(manager.GetString("id"))
+							Msgbox("login sebagai jamaah","Info")
+							manager.SetBoolean("is_login",True)
+							Log("start home jamaah-----------------")
+							StartActivity(HomeJamaah)
+						Else 
+							If (status = "stewardship") And (manager.GetBoolean("step") = True) Then
+							Msgbox("login sebagai stewardship","Info")							
+							manager.SetString("username",username)
+							manager.SetString("id",id)
+							Log(manager.GetString("username"))
+							Log(manager.GetString("id"))
+							manager.SetBoolean("is_login",True)
+								Log("start home stewardship.............")
+							StartActivity(HomeStewardship)
+							Else
+								Msgbox("Pastikan Login Dengan Benar","Warning")
+							End If
+						End If
+					End If
+					
+				Catch
+					Log(LastException)
+					Msgbox("Wrong username or password","Login Failed")					
+				End Try					
+		End Select
+	Else
+		Log("Error: " & Job.ErrorMessage)
+		ToastMessageShow("Error: " & Job.ErrorMessage, True)
+	End If
+	Job.Release
+End Sub
+
+Sub BtnLogin_Click
+	Private pi As String
+	pi = EditPassword.Text	
+	
+	Dim md As MessageDigest
+	Dim ByteCon As ByteConverter
+	Dim passwordhash() As Byte
+	
+	passwordhash = md.GetMessageDigest(pi.GetBytes("UTF8"),"MD5")
+	md5string = ByteCon.HexFromBytes(passwordhash)
+	md5string = md5string.ToLowerCase
+	CodeSemua.ExecuteUrl(server&"api/login","phone="&EditUsername.Text&"&password="&md5string, "Login",Me)
+	'"phone="&EditUsername.Text&"&password="&md5string	
+End Sub
+
+
+Sub SetChecked(v As Panel,s As Label, PressedState As Boolean)
+	Dim checked, unchecked As ColorDrawable
+	checked.Initialize(Colors.ARGB(255,5,138,72), 0dip)
+	unchecked.Initialize(Colors.White, 0dip)
+	Log(PressedState)
+	Select PressedState
+		Case True
+			v.Background = checked
+			s.TextColor = Colors.White
+		Case False
+			v.Background = unchecked
+			s.TextColor = Colors.Black
+	End Select	
+End Sub
+
+Sub CheckLogin
+	Dim islogin As Boolean
+	islogin = manager.GetBoolean("is_login")
+	If islogin Then		
+		If manager.GetBoolean("jamaah") = True Then
+			Activity.Finish
+			StartActivity(HomeJamaah)
+		Else
+			If manager.GetBoolean("step") = True Then
+				Activity.Finish
+				StartActivity(HomeStewardship)
+			End If
+		End If
+	End If
+End Sub
+
+Sub Labelstep_Click
+	manager.SetBoolean("step",True)
+	manager.SetBoolean("jamaah",False)
+	SetChecked(pstep,Labelstep,manager.GetBoolean("step"))
+	SetChecked(pjam,labeljam,manager.GetBoolean("jamaah"))
+End Sub
+
+Sub labeljam_Click
+	manager.SetBoolean("jamaah",True)
+	manager.SetBoolean("step",False)
+	SetChecked(pstep,Labelstep,manager.GetBoolean("step"))
+	SetChecked(pjam,labeljam,manager.GetBoolean("jamaah"))
+End Sub
